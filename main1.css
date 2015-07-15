@@ -1,0 +1,40 @@
+body {
+	color: rgb(255,255,255);
+	text-align: center;
+	background: #680000
+
+}
+
+h1{
+	font-weight: bold;
+	text-align: center;
+	font-size: 60px
+	
+}
+ul{
+	text-align: left;
+	font-family: "courier"
+}
+
+#slogan {
+	font-weight: bold;
+	text-align: center;
+	font-size: 30px
+	
+}
+hr{
+	width: 200px;
+	text-align: center;
+}
+p{
+	text-align: center;
+	font-style: oblique;
+	font-family: "courier new"
+}
+#contact {
+	text-align: center;
+}
+img {
+	text-align: center;
+	background-size: 50% 50%
+}
