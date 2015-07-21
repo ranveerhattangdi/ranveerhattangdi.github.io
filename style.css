@@ -1,0 +1,43 @@
+body {
+	color: rgb(0,0,0);
+	text-align: center;
+	background: #C0C0C0;
+}
+h1{
+	background: #505050;
+	color: rgb(255,255,255);
+	font-family: 'Slackey', cursive;
+	font-weight: bold;
+	text-align: center;
+	font-size: 60px
+	
+	}
+ul{
+	text-align: left;
+	font-family: "Times"
+}
+
+#slogan {
+	font-family: "Life Savers", cursive;
+	font-weight: bold;
+	text-align: center;
+	font-size: 30px
+
+	
+}
+hr{
+	width: 200px;
+	text-align: center;
+}
+p{
+	text-align: center;
+	font-style: oblique;
+	font-family: "Times New Roman"
+}
+#contact {
+	text-align: center;
+}
+img {
+	text-align: center;
+	background-size: 50% 50%
+}
