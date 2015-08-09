@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Curent Exhibitions</title>
+	<link rel="stylesheet" type="text/css" href="about.css">
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Dosis:400,800">
+	<script src="http://maps.googleapis.com/maps/api/js"></script>
+<script>
+function initialize() {
+  var mapProp = {
+    center:new google.maps.LatLng(51.5086,0.1283),
+    zoom:5,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+<script>
+function initialize() {
+  var mapProp = {
+    center:new google.maps.LatLng(51.5086,0.1283),
+    zoom:7,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+</head>
+<body>
+	<header>
+		<h1>
+			Exhibitions
+		</h1>
+	</header>
+	<h3>
+		The National Gallery
+	</h3>
+	<br>
+	<div id="soundscapes">
+	<div id="googleMap" style="width:150px;height:150px; align="right" "></div>
+	<br>
+	<img src="http://informedlondon.com/wp-content/uploads/2015/07/soundscapes-ticket-300x300.jpg" width="150px" height="150px" align="left">
+	
+	
+	<h5>
+		Soundscapes
+	</h5>
+	<p>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+	</p>
+	</div>
+	<div id="frames">
+	<img src="http://cdn.ltstatic.com/2015/March/VF202392_942long.jpg" width="150px" height="150px" align="left">
+	<h5>
+		Frames in Focus: Sansovino Frames
+	</h5>
+	<p>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+	</p>
+	<br>
+	<br>
+	<br>
+		<a id= "link" href="http://www.nationalgallery.org.uk/">The National Gallery</a>
+	</div>
+
+	<div class="linebreak"></div>
+
+	<h3>
+		Tate Britain
+	</h3>
+	<br>
+	<div id="googleMap" style="width:150px;height:150px;"></div>
+	<br>
+	<div class="tate">
+	<img src="http://www.iconsdb.com/icons/preview/maroon/square-ios-app-xxl.png" height="150px width="150px" align="left">
+	
+	<h5>Fighting History</h5>
+	<p>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+	</p>
+	</div>
+	<br>
+	<br>
+	<br>
+	<a href="http://www.tate.org.uk/visit/tate-britain">Tate Britain</a>
+
+</body>
+</html>

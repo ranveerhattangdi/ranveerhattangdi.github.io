@@ -1,0 +1,91 @@
+body {
+	background-image: #880000;
+}
+h1{
+	font-family: "Dosis", sans-serif;
+	text-align: center;
+	color: #ffffff;
+	margin: 0.2em;
+	padding: 0.4em;
+	font-size: 72px;
+	font-weight: bolder;
+}
+
+header {
+	background: #880000;
+	display: block;
+
+}
+
+footer {
+	background: #B0B0B0;
+	display: block;
+}
+
+
+.images {
+	text-align: center;
+	height: 50px;
+	margin: 0em 0.2em;
+	padding-top: 0.5em;
+}
+
+#copyright {
+	text-align: center;
+}
+div {
+	text-align: center;
+	background-size: 90%
+
+}
+
+#telephone {
+	font-family: "Dosis", sans-serif;
+	font-size: 18px;
+	
+}
+
+#email {
+	font-family: "Dosis", sans-serif;
+	font-size: 18px;
+	
+}
+
+nav {
+	background-color: #880000;
+	font-family: "Doris", sans-serif;
+}
+
+a {
+	background-color: #880000;
+	color: #ffffff;
+	display: block;
+	float: left;
+	padding: 2%;
+	text-align: center;
+	text-decoration: none;
+	font-family: "Doris", sans-serif;
+	width: 46%
+
+}
+a:hover {
+	background-color: #B0B0B0;
+	color: #ffffff;
+}
+
+#Home {
+	font-family: "Dosis", sans-serif;
+	text-align: center;
+	color: #ffffff;
+	font-size: 20px
+	font-weight: 400;
+}
+
+#Exhibitions {
+	font-family: "Dosis", sans-serif;
+	text-align: center;
+	color: #ffffff;
+	font-size: 20px
+	font-weight: 400;
+}
+
